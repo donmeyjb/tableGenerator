@@ -1,0 +1,17 @@
+:root {
+    /* header tablas */
+    --header-table-txt:#808080;
+    --header-table-border:#ddd;
+    /* botones de las tablas */
+    --standar-table-btn-line:  #558eff;
+    --standar-table-btn-background:  #fff ;
+    --standar-table-btn-txt:#558eff ;
+    --standar-hover-table-btn-line:  #558eff ;
+    --standar-hover-table-btn-background:#558eff ;
+    --standar-hover-table-btn-txt: #fff ;
+    /* elementos de filtros de tablas */
+    --filtros-titulos:#808080;
+    --filtros-inputs-border: #d75e00;
+    --filtros-resultados-txt: #d75e00;
+    --filtros-resultados-hover-background:#ffa056;
+  }
