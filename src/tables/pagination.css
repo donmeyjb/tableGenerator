@@ -1,0 +1,53 @@
+.table-footer-container{
+    width: 100%;
+    display: flex;
+      margin-top: 30px;
+  }
+  .footer-btns-container{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+  .footer-extra-btn{
+    display: flex;
+  }
+  .footer-extra-btn span {
+    background: #f4f4f4;
+    padding: 0 10px;
+    border: 1px solid #f4f4f4;
+  }
+  .footer-btns-container button{
+    position: relative;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #181B2B;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    cursor: pointer;
+    min-width: 50px;
+  }
+  .footer-btns-container button:hover{
+    background-color: #ddd;
+  }
+  .footer-btns-container button.activeButton{
+    background-color: #181B2B;
+    color:#fff;
+    border: 1px solid #181B2B;
+  }
+  .footer-info-table{
+    width: 50%;
+    display: flex;
+  }
+  .results {
+      margin: 0;
+      margin-right: 20px;
+      margin-top: 7px;
+      color: #8F9BB3;
+      font-size: 14px;
+      align-self: center;
+  }
+  .footer-info-table .selector-relative{
+    align-self: center;
+  }
